@@ -64,7 +64,6 @@ public class ConsoleApp {
 
                         case "touch":
                             // TODO: реализуйте пожалуйста сами. Нужно воспользоваться классом FileUtils
-                            Scanner scanner2 = new Scanner(System.in);
                             text = line.substring(data[0].length() + 1);
                             FileUtils.createFile(text);
                             System.out.println("Файл " + text + " успешно создан");
